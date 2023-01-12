@@ -1,0 +1,47 @@
+{
+    "orderId": "<GENERATED_VALUE>",
+    "cartId": "<GENERATED_VALUE>",
+    "creationDate": "<DATE_TIME_STAMP>",
+    "code": " 200 | 400 | 500 <depending on the success / failure, the code will be different. 200 is for success. 400 is for bad request and 500 is for internal server error>",
+    "errorMessage": "<if response is 400 | 500, then add the error message>",
+    "bundleItems": [
+        {
+            "item_code": "<GENERATED_VALUE_FROM_MS1>",
+            "quantity": 1,
+            "details": [
+                {
+                    "key": "duration",
+                    "value": "6"
+                },
+                {
+                    "key": "promotion",
+                    "value": "Temporary process adaptation"
+                },
+                {
+                    "key": "discountedProduct",
+                    "value": "GEN_PROD_001"
+                }
+            ],
+            "child_components": [
+                {
+                    "item_code": "SIM",
+                    "quantity": 1,
+                    "details": [
+                        {
+                            "key": "duration",
+                            "value": "6"
+                        },
+                        {
+                            "key": "promotion",
+                            "value": "Temporary process adaptation"
+                        },
+                        {
+                            "key": "discountedProduct",
+                            "value": "GEN_PROD_001"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
